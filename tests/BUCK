@@ -1,0 +1,189 @@
+cxx_binary(
+  name = 'clipboard', 
+  srcs = [
+    'clipboard.c', 
+  ], 
+  deps = [
+    '//:glfw', 
+  ], 
+)
+
+cxx_binary(
+  name = 'cursor', 
+  srcs = [
+    'cursor.c', 
+  ], 
+  deps = [
+    '//:glfw', 
+  ], 
+)
+
+cxx_binary(
+  name = 'empty', 
+  srcs = [
+    'empty.c', 
+  ], 
+  deps = [
+    '//:glfw', 
+  ], 
+)
+
+cxx_binary(
+  name = 'events', 
+  srcs = [
+    'events.c', 
+  ], 
+  deps = [
+    '//:glfw', 
+  ], 
+)
+
+cxx_binary(
+  name = 'gamma', 
+  srcs = [
+    'gamma.c', 
+  ], 
+  deps = [
+    '//:glfw', 
+  ], 
+)
+
+cxx_binary(
+  name = 'glfwinfo', 
+  srcs = [
+    'glfwinfo.c', 
+  ], 
+  deps = [
+    '//:glfw', 
+  ], 
+)
+
+cxx_binary(
+  name = 'icon', 
+  srcs = [
+    'icon.c', 
+  ], 
+  deps = [
+    '//:glfw', 
+  ], 
+)
+
+cxx_binary(
+  name = 'iconify', 
+  srcs = [
+    'iconify.c', 
+  ], 
+  deps = [
+    '//:glfw', 
+  ], 
+)
+
+cxx_binary(
+  name = 'joysticks', 
+  srcs = [
+    'joysticks.c', 
+  ], 
+  deps = [
+    '//:glfw', 
+  ], 
+)
+
+cxx_binary(
+  name = 'monitors', 
+  srcs = [
+    'monitors.c', 
+  ], 
+  deps = [
+    '//:glfw', 
+  ], 
+)
+
+cxx_binary(
+  name = 'msaa', 
+  srcs = [
+    'msaa.c', 
+  ], 
+  deps = [
+    '//:glfw', 
+  ], 
+)
+
+cxx_binary(
+  name = 'reopen', 
+  srcs = [
+    'reopen.c', 
+  ], 
+  deps = [
+    '//:glfw', 
+  ], 
+)
+
+cxx_binary(
+  name = 'sharing', 
+  srcs = [
+    'sharing.c', 
+  ], 
+  deps = [
+    '//:glfw', 
+  ], 
+)
+
+cxx_binary(
+  name = 'tearing', 
+  srcs = [
+    'tearing.c', 
+  ], 
+  deps = [
+    '//:glfw', 
+  ], 
+)
+
+cxx_binary(
+  name = 'threads', 
+  srcs = [
+    'threads.c', 
+  ], 
+  deps = [
+    '//:glfw', 
+  ], 
+)
+
+cxx_binary(
+  name = 'timeout', 
+  srcs = [
+    'timeout.c', 
+  ], 
+  deps = [
+    '//:glfw', 
+  ], 
+)
+
+cxx_binary(
+  name = 'title', 
+  srcs = [
+    'title.c', 
+  ], 
+  deps = [
+    '//:glfw', 
+  ], 
+)
+
+cxx_binary(
+  name = 'vulkan', 
+  srcs = [
+    'vulkan.c', 
+  ], 
+  deps = [
+    '//:glfw', 
+  ], 
+)
+
+cxx_binary(
+  name = 'windows', 
+  srcs = [
+    'windows.c', 
+  ], 
+  deps = [
+    '//:glfw', 
+  ], 
+)

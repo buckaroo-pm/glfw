@@ -80,3 +80,7 @@ tests/version
 tests/vulkan
 tests/windows
 
+/buck-out
+/.buckd
+/buckaroo
+.buckconfig.local

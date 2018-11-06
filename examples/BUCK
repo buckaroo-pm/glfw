@@ -1,0 +1,69 @@
+cxx_binary(
+  name = 'boing', 
+  srcs = [
+    'boing.c', 
+  ], 
+  deps = [
+    '//:glfw', 
+  ], 
+)
+
+cxx_binary(
+  name = 'gears', 
+  srcs = [
+    'gears.c', 
+  ], 
+  deps = [
+    '//:glfw', 
+  ], 
+)
+
+cxx_binary(
+  name = 'heightmap', 
+  srcs = [
+    'heightmap.c', 
+  ], 
+  deps = [
+    '//:glfw', 
+  ], 
+)
+
+cxx_binary(
+  name = 'particles', 
+  srcs = [
+    'particles.c', 
+  ], 
+  deps = [
+    '//:glfw', 
+  ], 
+)
+
+cxx_binary(
+  name = 'simple', 
+  srcs = [
+    'simple.c', 
+  ], 
+  deps = [
+    '//:glfw', 
+  ], 
+)
+
+cxx_binary(
+  name = 'splitview', 
+  srcs = [
+    'splitview.c', 
+  ], 
+  deps = [
+    '//:glfw', 
+  ], 
+)
+
+cxx_binary(
+  name = 'wave', 
+  srcs = [
+    'wave.c', 
+  ], 
+  deps = [
+    '//:glfw', 
+  ], 
+)
