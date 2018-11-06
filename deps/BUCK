@@ -1,3 +1,15 @@
+prebuilt_cxx_library(
+  name = 'khr', 
+  header_namespace = 'KHR', 
+  header_only = True, 
+  exported_headers = {
+    'khrplatform.h': 'KHR/khrplatform.h', 
+  },
+  visibility = [
+    'PUBLIC',
+  ], 
+)
+
 cxx_library(
   name = 'glad', 
   header_namespace = 'glad', 
@@ -6,6 +18,9 @@ cxx_library(
   ]),
   srcs = [
     'glad.c', 
+  ], 
+  deps = [
+    ':khr', 
   ], 
   visibility = [
     'PUBLIC',
