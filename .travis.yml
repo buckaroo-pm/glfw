@@ -10,6 +10,7 @@ addons:
       - g++-6
       - gcc-6
       - xvfb
+      - libxinerama-dev
   homebrew:
     taps:
       - facebook/fb
