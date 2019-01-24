@@ -1,0 +1,39 @@
+prebuilt_cxx_library(
+  name = 'linmath',
+  header_namespace = '',
+  header_only = True,
+  exported_headers = [
+    'linmath.h',
+  ],
+  visibility = [
+    'PUBLIC',
+  ],
+)
+
+cxx_library(
+  name = 'glad',
+  header_namespace = '',
+  exported_headers = [
+    'glad/glad.h',
+  ],
+  srcs = [
+    'glad.c',
+  ],
+  visibility = [
+    'PUBLIC',
+  ],
+)
+
+cxx_library(
+  name = 'tinycthread',
+  header_namespace = '',
+  exported_headers = [
+    'tinycthread.h',
+  ],
+  srcs = [
+    'tinycthread.c',
+  ],
+  visibility = [
+    'PUBLIC',
+  ],
+)

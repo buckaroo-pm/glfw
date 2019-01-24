@@ -1,0 +1,34 @@
+targets = [ "//:glfw" ]
+
+
+[[dependency]]
+package = "github.com/buckaroo-pm/host-cocoa"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/host-core-foundation"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/host-core-video"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/host-dl"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/host-io-kit"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/host-pthread"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/pkg-config-gl"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/pkg-config-x11"
+version = "branch=master"

@@ -1,0 +1,65 @@
+manifest = "a5f0e3fdfb981118ae35284aec950f7b7fe4faeb8482ded83b7a9255a14c2adc"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/host-cocoa"
+target = "//:cocoa"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/host-core-foundation"
+target = "//:core-foundation"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/host-core-video"
+target = "//:core-video"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/host-dl"
+target = "//:dl"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/host-io-kit"
+target = "//:io-kit"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/host-pthread"
+target = "//:pthread"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/pkg-config-gl"
+target = "//:gl"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/pkg-config-x11"
+target = "//:x11"
+
+[lock."github.com/buckaroo-pm/host-cocoa"]
+versions = [ "branch=master" ]
+revision = "72ea2945d7e139d9f4803c726339778e619b8cdb"
+
+[lock."github.com/buckaroo-pm/host-core-foundation"]
+versions = [ "branch=master" ]
+revision = "fd7081ffe1244afb86c41c2d41d3603f851feae8"
+
+[lock."github.com/buckaroo-pm/host-core-video"]
+versions = [ "branch=master" ]
+revision = "65639f49f1a4836f0f3b31503ebad8c9c2a73a71"
+
+[lock."github.com/buckaroo-pm/host-dl"]
+versions = [ "branch=master" ]
+revision = "69a239353756c2ef5c97e5a56a0964fb7ac6eb49"
+
+[lock."github.com/buckaroo-pm/host-io-kit"]
+versions = [ "branch=master" ]
+revision = "68cf79a5a0cecfb6d68896ad29d3b0c001849dd5"
+
+[lock."github.com/buckaroo-pm/host-pthread"]
+versions = [ "branch=master" ]
+revision = "a62519aa69c8e3243d6065fbf4c1d2de072f86f6"
+
+[lock."github.com/buckaroo-pm/pkg-config-gl"]
+versions = [ "branch=master" ]
+revision = "c8734a6884d0aaa713c059673a103fe58de08084"
+
+[lock."github.com/buckaroo-pm/pkg-config-x11"]
+versions = [ "branch=master" ]
+revision = "6f292a6166cd3c45c776b294485a24e7d71c0e0c"

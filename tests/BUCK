@@ -1,0 +1,33 @@
+cxx_binary(
+  name = 'empty',
+  srcs = [
+    'empty.c',
+  ],
+  deps = [
+    '//:glfw',
+    '//deps:glad',
+    '//deps:tinycthread',
+  ],
+)
+
+cxx_binary(
+  name = 'title',
+  srcs = [
+    'title.c',
+  ],
+  deps = [
+    '//:glfw',
+    '//deps:glad',
+  ],
+)
+
+cxx_binary(
+  name = 'timeout',
+  srcs = [
+    'timeout.c',
+  ],
+  deps = [
+    '//:glfw',
+    '//deps:glad',
+  ],
+)
