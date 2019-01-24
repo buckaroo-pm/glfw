@@ -9,6 +9,7 @@ addons:
     packages:
       - g++-6
       - gcc-6
+      - xvfb
   homebrew:
     taps:
       - facebook/fb
