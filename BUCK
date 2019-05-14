@@ -53,7 +53,7 @@ vulkan_srcs = glob([
   'src/vulkan.c',
 ])
 
-platform_srcs = 
+platform_srcs = \
   null_srcs + macos_srcs + windows_srcs + linux_srcs + \
   posix_srcs + mir_srcs + x11_srcs + glx_srcs + \
   egl_srcs + wgl_srcs + wl_srcs + vulkan_srcs
