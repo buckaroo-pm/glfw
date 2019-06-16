@@ -109,7 +109,7 @@ cxx_library(
     'src/**/*.c',
   ], exclude = platform_srcs),
   platform_srcs = [
-    ('linux.*', linux_srcs + x11_srcs),
+    ('linux.*', linux_srcs + posix_srcs + x11_srcs + egl_srcs + glx_srcs + vulkan_srcs),
     ('macos.*', macos_srcs),
     ('windows.*', windows_srcs + egl_srcs + wgl_srcs + vulkan_srcs),
   ],
